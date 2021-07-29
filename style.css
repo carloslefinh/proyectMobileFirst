@@ -125,3 +125,45 @@ main{
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 64px;
+}
+.main-currency-table {
+    width: 61.25%;
+    min-width: 195px;
+    max-width: 500px;
+    height: 194px;
+    margin: 0 auto;
+}
+.main-currency-table .currency-table--title{
+    padding-left: 12px;
+    margin-bottom: 12px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.344rem;
+    color: #FF9536;
+    text-align: left;
+}
+.currency-table--container table{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    min-width: 195px;
+    max-width: 300px;
+    height: 156px;
+}
+.currency-table--container td {
+    padding: 10px 12px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.936rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+
+
+
+
+
+
