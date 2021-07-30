@@ -134,7 +134,7 @@ main{
     width: 61.25%;
     min-width: 195px;
     max-width: 500px;
-    height: 194px;
+    height: auto;
     margin: 0 auto;
 }
 .main-currency-table .currency-table--title{
@@ -146,6 +146,7 @@ main{
     color: #FF9536;
     text-align: left;
 }
+
 .currency-table--container table{
     font-family: "Inter", sans-serif;
     width: 100%;
@@ -202,6 +203,48 @@ main{
     background-position: center;
     background-repeat: no-repeat;
 }
+.currency-table--date {
+    width: 173px;
+    height: 31px;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+.currency-table--date p {
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    align-items: center;
+    color: var(--warm-black);
+}
+.main-currency-table .comition-table--title{
+    padding-left: 12px;
+    margin-bottom: 12px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.344rem;
+    color: var(--secundary-blue);
+    text-align: left;
+}
+.comition-table--date {
+    width: 173px;
+    height: 31px;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+.comition-table--date p {
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    align-items: center;
+    color: var(--warm-black);
+}
+
 
 
 
