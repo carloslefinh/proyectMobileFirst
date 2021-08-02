@@ -244,6 +244,48 @@ main{
     align-items: center;
     color: var(--warm-black);
 }
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 64px 16px 31px 16px;
+    background-color: var(--warm-black);
+}
+.product-detail--logo {
+    position: absolute;
+    width: 38px;
+    height: 24px;
+    top: -10px;
+    left: calc(50% - 19px);
+    background-image: url("./assets/imgs/SmallBatataLogo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.product-detail--title h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    margin-bottom: 24px;
+}
+.product-detail--title p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+    margin-bottom: 32px;
+}
+
+
 
 
 
