@@ -427,7 +427,7 @@ main{
 }
 .plan-card--price span {
     position: absolute;
-    left: 43px;
+    left: 34px;
     top: 11px;
     font-size: 1.4rem;
     line-height: 1.5rem;
@@ -441,6 +441,25 @@ main{
     line-height: 1.5rem;
     color: #757575;
     margin-top: 16px;
+}
+.plan-card--ca {
+    width: 151px;
+    height: 48px;
+    margin-top: 16px;
+    background-color: var(--off-white);
+    border-radius: 4px;
+    border: 2px solid var(--bitcoin-orange);
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    color: var(--warm-black);
+}
+.plan-card--ca span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('./assets/icons/orange-arrow.svg');
+    vertical-align: middle;
 }
 
 
