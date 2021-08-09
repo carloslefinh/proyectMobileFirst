@@ -128,14 +128,18 @@ main{
 .main-tables-container {
     width: 100%;
     height: auto;
-    margin-bottom: 64px;
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 .main-currency-table {
+    scroll-snap-align: center;
     width: 61.25%;
     min-width: 195px;
     max-width: 500px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 62px;
 }
 .main-currency-table .currency-table--title{
     padding-left: 12px;
@@ -284,6 +288,9 @@ main{
     color: #808080;
     margin-bottom: 32px;
 }
+.product-cards--container{
+    
+}
 .product-detail--card {
     width: 100%;
     min-width: 288px;
@@ -293,6 +300,7 @@ main{
     background-color: var(--black);
     border-radius: 4px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    margin: 0 auto;
     margin-bottom: 16px;
 }
 .product-detail--card .icon{
