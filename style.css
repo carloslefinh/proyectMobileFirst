@@ -395,6 +395,7 @@ main{
     background-color: var(--just-white);
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    margin-bottom: 10px;
 }
 .recommended {
     position: absolute;
