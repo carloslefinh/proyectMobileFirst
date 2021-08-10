@@ -137,7 +137,7 @@ main{
     scroll-snap-align: center;
     width: 61.25%;
     min-width: 195px;
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
     margin: 0 62px;
 }
